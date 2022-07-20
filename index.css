@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 70px;
+   
+    
+}
+#input-el{
+    width: 450px;
+    padding: 10px 19px;
+   
+    border: 1px solid #2D31FA;
+}
+button{
+    background-color: #2D31FA;
+    color: white;
+    font-weight: bolder;
+    margin: 8px 0; 
+    padding: 10px 0;
+    width: 119px;
+    
+    border: 2px solid #2D31FA;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.btn{
+    margin-left: 40px;
+}
+
+#delete-btn{
+    background-color: white;
+    color: #2D31FA;
+    font-weight: bolder;
+    margin: 8px 0; 
+    padding: 10px 0;
+    width: 119px;
+   
+   border: 2px solid #2D31FA;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+#delete-btn:hover {
+    background-color: #2D31FA;
+    color: white;
+    font-weight: bolder;
+    margin: 8px 0; 
+    padding: 10px 0;
+    width: 119px;
+    
+   border: 2px solid #2D31FA ;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #5D8BF4;
+}
+p{
+    color: black;
+}
+#ul-el, li{
+    color: #2D31FA;
+    list-style: none;
+    text-decoration:none;
+    
+}
+#box {
+    background-color: #2D31FA;
+    text-align: center;
+    padding: 20px 40px;
+    color: white;
+    cursor: pointer;
+}
